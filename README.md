@@ -1,6 +1,6 @@
 # Hi there, I’m Mankirat! 👋
 
-Welcome to my GitHub profile! I’m a budding Full Stack Web Developer currently enrolled in a coding bootcamp. I’m excited to continue expanding my skill set every day.
+Welcome to my GitHub profile! I’m a budding Software Engineer currently enrolled in a coding bootcamp. I’m excited to continue expanding my skill set every day.
 
 ## 🏆 A Little About Me
 
