@@ -1,6 +1,6 @@
 # Hi there, I’m Mankirat! 👋
 
-Welcome to my GitHub profile! I’m a Software Engineer with a passion for full stack development. Through continuous learning—including my current bootcamp—I build robust, user-friendly applications that make an impact.
+Welcome to my GitHub profile! I’m a Software Engineer with a passion for full stack development. Through continuous learning including my current bootcamp I build robust, user-friendly applications that make an impact.
 
 ## 🏆 A Little About Me
 
