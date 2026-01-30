@@ -90,6 +90,3 @@ python dao_heart_engine.py \
 ## Contact
 **Mankirat Singh Cheema**  
 Independent Researcher  
-
-## License
-MIT License.
