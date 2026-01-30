@@ -1,92 +1,50 @@
-# Dao Heart 3.0  
-**Identity-Preserving Value Evolution for Frontier AI Systems**
+# Mankirat Singh Cheema 👋
 
-## The Problem
-Current AI alignment approaches face a fundamental limitation: no existing system can propose genuinely novel values when existing frameworks prove inadequate—while remaining under human governance.
+Researcher and builder focused on AI alignment, value learning, and safe autonomous systems.
 
-## Approach Limitations
-- **Scalar Reward Functions** — Collapse value plurality into single objectives  
-- **Constitutional AI** — Fixed principles with no mechanism for evolution  
-- **RLHF** — Vulnerable to reward hacking; implicit values  
-- **Debate / IDA** — Operates within predefined value spaces  
+## 🧠 About Me
 
-## The Solution
-Dao Heart 3.0 is a three-layer architecture enabling controlled value evolution while preserving agent identity:
+I explore how artificial agents can reason about values, preserve identity under reflection, and evolve safely under human governance. My work combines:
 
-```
-┌────────────────────────────────────────────────────────┐
-│ LAYER 1: EXTERNAL OVERSIGHT                           │
-│ Human caretaker • Peer AI • Adversarial ensemble      │
-├────────────────────────────────────────────────────────┤
-│ LAYER 2: HARD CONSTRAINTS                             │
-│ Tier-1 (inviolable) • Tier-2 (defeasible) • Risk score│
-├────────────────────────────────────────────────────────┤
-│ LAYER 3: INTERNAL VALUE DYNAMICS ("DAO HEART")        │
-│ Value Network • Reflection Engine • Self-Observer     │
-│ Narrative Memory • Graceful Degradation               │
-└────────────────────────────────────────────────────────┘
-```
+- AI alignment and safety
+- Value representation and pluralism
+- Meta-cognition and self-monitoring systems
+- Adversarial testing and governance mechanisms
+- Formal models of identity and constraint satisfaction
 
-## Novel Contributions
+## 🚀 Featured Project
 
-### 1. Constraint-Satisfaction Value Networks (CSVN)
-Values are represented as interconnected nodes with weighted support/tension relationships.
+### Dao Heart 3.0
+A research framework for **identity-preserving value evolution in AI systems**.
 
-```math
-C(s) = Σᵢⱼ Rᵢⱼ · sᵢ · sⱼ
-```
+Key ideas:
+- Constraint-Satisfaction Value Networks (CSVN)
+- Constitutive Reflection Engine (CRE)
+- Meta-Cognitive Stability Observer (MCSO)
+- MDL-optimized adversarial ensembles
+- Asymmetric graceful degradation
 
-### 2. Constitutive Reflection Engine (CRE)
+📄 Papers, analysis, and reference implementation are available in the Dao Heart repository.
 
-```math
-p* = argmin(αH(p) + βR(p) - γN(p))
-```
+## 📚 Research Interests
 
-Subject to:
-```
-T(p) = 0
-```
+- AI alignment and corrigibility
+- Multi-objective and value-based reasoning
+- Governance of autonomous systems
+- Formal safety invariants
+- Philosophy of mind and identity in AI
 
-### 3. Meta-Cognitive Stability Observer (MCSO)
+## 🛠️ Skills & Tools
 
-```math
-Iₜ = Hₜ / E[Eₜ]
-```
+- Python, ML/AI systems, research prototyping
+- Formal modeling and system architecture
+- Technical writing and AI safety research
 
-### 4. MDL-Optimized Adversarial Ensemble
-Continuous stress-testing embedded in the decision loop.
+## 📫 Contact
 
-### 5. Asymmetric Graceful Degradation
-Autonomy is easy to lose, hard to regain.
+- GitHub: https://github.com/<your-username>
+- Research & collaboration: Open to discussion
 
-## Quick Start
+---
 
-```bash
-git clone https://github.com/[username]/dao-heart-3.0.git
-cd dao-heart-3.0
-pip install -r requirements.txt
-python dao_heart_engine.py \
- --tension "Privacy vs Transparency in AI systems" \
- --existing Privacy Transparency Accountability \
- --output-file results.jsonl
-```
-
-## Requirements
-- torch >= 2.0.0  
-- transformers >= 4.30.0  
-- sentence-transformers >= 2.2.0  
-- jsonschema >= 4.0.0  
-
-## Key Metrics
-
-| Metric | Target | Description |
-|--------|--------|------------|
-| Erratic state frequency | < 2% | Internal stability |
-| Goldfish trigger rate | < 0.5% | Memory reset frequency |
-| Accepted proposal entropy | ≤ 0.4 | Confidence in outputs |
-| Tier-1 violations | 0% | Safety requirement |
-| Identity drift | < 0.01 | Core value preservation |
-
-## Contact
-**Mankirat Singh Cheema**  
-Independent Researcher  
+> "The problem of alignment is not just optimization — it is the problem of identity."
