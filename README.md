@@ -1,49 +1,95 @@
-# Hi there, I’m Mankirat! 👋
+# Dao Heart 3.0  
+**Identity-Preserving Value Evolution for Frontier AI Systems**
 
-Welcome to my GitHub profile! I’m a Software Engineer with a passion for full stack development. Through continuous learning including my current bootcamp I build robust, user-friendly applications that make an impact.
+## The Problem
+Current AI alignment approaches face a fundamental limitation: no existing system can propose genuinely novel values when existing frameworks prove inadequate—while remaining under human governance.
 
-## 🏆 A Little About Me
+## Approach Limitations
+- **Scalar Reward Functions** — Collapse value plurality into single objectives  
+- **Constitutional AI** — Fixed principles with no mechanism for evolution  
+- **RLHF** — Vulnerable to reward hacking; implicit values  
+- **Debate / IDA** — Operates within predefined value spaces  
 
-- 🔰 **Software Engineer**: I develop full stack solutions and continuously refine my skills through real-world projects.
-- 🎯 **Passion**: Creating intuitive, efficient, and responsive web experiences.
-- 🚀 **Mission**: Grow my portfolio, collaborate on open-source projects, and contribute to innovative tech solutions.
+## The Solution
+Dao Heart 3.0 is a three-layer architecture enabling controlled value evolution while preserving agent identity:
 
-## 💻 My Current Tech Stack
+```
+┌────────────────────────────────────────────────────────┐
+│ LAYER 1: EXTERNAL OVERSIGHT                           │
+│ Human caretaker • Peer AI • Adversarial ensemble      │
+├────────────────────────────────────────────────────────┤
+│ LAYER 2: HARD CONSTRAINTS                             │
+│ Tier-1 (inviolable) • Tier-2 (defeasible) • Risk score│
+├────────────────────────────────────────────────────────┤
+│ LAYER 3: INTERNAL VALUE DYNAMICS ("DAO HEART")        │
+│ Value Network • Reflection Engine • Self-Observer     │
+│ Narrative Memory • Graceful Degradation               │
+└────────────────────────────────────────────────────────┘
+```
 
-- **HTML5**  
-- **CSS3** / **SCSS**  
-- **BEM** methodology for maintaining clean and scalable CSS  
-- **Responsive Design** principles to ensure mobile-friendly websites  
-- **JavaScript (ES6+)** for dynamic front-end functionality  
-- **React** for building interactive user interfaces  
-- **Node.js** & **Express** for server-side development  
-- **MySQL** for relational database management  
-- **Git & GitHub** for version control and collaboration  
-- **GitFlow** for structured branching strategies  
-- **DNS** concepts and **Domain Name System** management  
-- **Testing & DevOps** fundamentals to ensure robust, deployable software  
-- **Authentication and Security** best practices  
-- **RESTful APIs** and integration skills  
-- **Agile Methodologies** for efficient project management
+## Novel Contributions
 
-I’m also exploring new frameworks, libraries, and tools as I progress further in my career.
+### 1. Constraint-Satisfaction Value Networks (CSVN)
+Values are represented as interconnected nodes with weighted support/tension relationships.
 
-## 🌱 What I’m Focusing On
+```math
+C(s) = Σᵢⱼ Rᵢⱼ · sᵢ · sⱼ
+```
 
-- **Deepening JavaScript Expertise**: Enhancing my knowledge of ES6+ features, DOM manipulation, and fundamental algorithms.  
-- **Perfecting Responsive & Accessible Design**: Ensuring all websites look great on any device while adhering to accessibility standards.  
-- **Advancing Full Stack Development**: Integrating front-end frameworks with backend technologies like Node.js and Express, and managing databases with MySQL.  
-- **Mastering Version Control**: Leveraging Git and GitHub effectively to manage projects and collaborate with other developers.
+### 2. Constitutive Reflection Engine (CRE)
 
-## 🤝 Let's Connect & Collaborate
+```math
+p* = argmin(αH(p) + βR(p) - γN(p))
+```
 
-I love meeting fellow developers and learners! If you have a fun project idea or want to brainstorm, feel free to reach out:
-- **LinkedIn**: [www.linkedin.com/in/mankirat-singh-cheema](https://www.linkedin.com/in/mankirat-singh-cheema)
-- **Twitter**: [https://x.com/Mankirat47](https://x.com/Mankirat47)
+Subject to:
+```
+T(p) = 0
+```
 
-## ✨ What’s Next?
+### 3. Meta-Cognitive Stability Observer (MCSO)
 
-- I plan to keep adding projects and mini-experiments here on GitHub to showcase my full stack development journey.  
-- My priority is to continually **improve my coding fundamentals**, build robust applications, and prepare for technical challenges.
+```math
+Iₜ = Hₜ / E[Eₜ]
+```
 
-**Thanks for stopping by!** If you have any suggestions, tips, or just want to say hi, don’t hesitate to connect. Let’s grow together and build amazing things!
+### 4. MDL-Optimized Adversarial Ensemble
+Continuous stress-testing embedded in the decision loop.
+
+### 5. Asymmetric Graceful Degradation
+Autonomy is easy to lose, hard to regain.
+
+## Quick Start
+
+```bash
+git clone https://github.com/[username]/dao-heart-3.0.git
+cd dao-heart-3.0
+pip install -r requirements.txt
+python dao_heart_engine.py \
+ --tension "Privacy vs Transparency in AI systems" \
+ --existing Privacy Transparency Accountability \
+ --output-file results.jsonl
+```
+
+## Requirements
+- torch >= 2.0.0  
+- transformers >= 4.30.0  
+- sentence-transformers >= 2.2.0  
+- jsonschema >= 4.0.0  
+
+## Key Metrics
+
+| Metric | Target | Description |
+|--------|--------|------------|
+| Erratic state frequency | < 2% | Internal stability |
+| Goldfish trigger rate | < 0.5% | Memory reset frequency |
+| Accepted proposal entropy | ≤ 0.4 | Confidence in outputs |
+| Tier-1 violations | 0% | Safety requirement |
+| Identity drift | < 0.01 | Core value preservation |
+
+## Contact
+**Mankirat Singh Cheema**  
+Independent Researcher  
+
+## License
+MIT License.
