@@ -42,7 +42,7 @@ Key ideas:
 
 ## 📫 Contact
 
-- GitHub: https://github.com/<your-username>
+- GitHub: https://github.com/<Mankirat47>
 - Research & collaboration: Open to discussion
 
 ---
